@@ -1,2 +1,2 @@
 # Midifier
-A work in progress to create a realtime VST plugin for converting monophinic audio sounds to midi.
+A work in progress to create a realtime VST plugin for converting monophinic audio sounds to midi. You need to build fftwf for building this. In the future DFT's might not be needed at all if unless for higher frequencies we can't make do with autocorrelation. The current commit exclusively uses DFT's. Can cause using with other plugins to crash the DAW. Consider this to be in pre-alpha stage. Pitch detection works only in one octave now, that in around E6-E7.
